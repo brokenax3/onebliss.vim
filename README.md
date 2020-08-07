@@ -24,9 +24,17 @@ Some engineering notes that I read on a daily basis.
 
 ![Preview_2](img/screenshot2.png)
 
+Some Rofi goodness.
+
+![Preview_3](img/screenshot3.png)
+
+GTK Theme
+
+![Preview_4](img/screenshot4.png)
+
 # Colours
 
-![Colours](img/colours.png)
+![Colours](img/colours_1.png)
 
 # i3 Colours
 

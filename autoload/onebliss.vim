@@ -16,8 +16,8 @@ let s:colors = {
       \ "comment_grey": get(s:overrides, "comment_grey", { "gui": "#826969", "cterm": "59", "cterm16": "15" }),
       \ "gutter_fg_grey": get(s:overrides, "gutter_fg_grey", { "gui": "#FFE0D6", "cterm": "238", "cterm16": "15" }),
       \ "cursor_grey": get(s:overrides, "cursor_grey", { "gui": "#403A39", "cterm": "236", "cterm16": "8" }),
-      \ "visual_grey": get(s:overrides, "visual_grey", { "gui": "#332F2E", "cterm": "237", "cterm16": "15" }),
-      \ "menu_grey": get(s:overrides, "menu_grey", { "gui": "#332F2E", "cterm": "237", "cterm16": "8" }),
+      \ "visual_grey": get(s:overrides, "visual_grey", { "gui": "#402D2D", "cterm": "237", "cterm16": "15" }),
+      \ "menu_grey": get(s:overrides, "menu_grey", { "gui": "#261517", "cterm": "237", "cterm16": "8" }),
       \ "special_grey": get(s:overrides, "special_grey", { "gui": "#4C4544", "cterm": "238", "cterm16": "15" }),
       \ "vertsplit": get(s:overrides, "vertsplit", { "gui": "#FFE0D6", "cterm": "59", "cterm16": "15" }),
       \}

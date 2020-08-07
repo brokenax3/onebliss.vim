@@ -1,12 +1,18 @@
-# This is still WIP.
-
 # onebliss.vim
 
-This was based off the impressive [onedark.vim](https://github.com/joshdick/onedark.vim) by joshdick. Thank you for the awesome syntax highlighting! The colour scheme was inspired after seeing co1ncidences' [bliss](https://github.com/co1ncidence/bliss).
+A theme exactly the same as onedark but red.
 
-I saw bliss and thought, this looks nice. However, the syntax highlighting was not as complete as onedark (daily driver colourscheme).
+This was based off the impressive [onedark.vim](https://github.com/joshdick/onedark.vim) by joshdick. The colour scheme was inspired after seeing co1ncidences' [bliss](https://github.com/co1ncidence/bliss).
 
 Probably not the best idea for readability but it looks nice.
+
+Colours were changed from bliss to have a bit of variation and a darker background to suit my work flow.
+
+Includes :
+- Rofi theme
+- gtk theme (Made with Oomox)
+- i3 colours
+- alacritty colours
 
 # Preview
 
@@ -53,3 +59,8 @@ bar {
     }
 }
 ```
+
+# Credits
+- [Josh Dick](https://github.com/joshdick) - For the amazing syntax highlighting and onedark.vim
+- [co1ncidence](https://github.com/co1ncidence) - For the colour scheme inspiration for bliss
+- [Belleve Invis](https://github.com/be5invis) - For the font Iosevka

@@ -13,6 +13,8 @@ Includes :
 - gtk theme (Made with Oomox)
 - i3 colours
 - alacritty colours
+- zathura colours
+- i3lock-color
 
 # Preview
 
@@ -66,6 +68,50 @@ bar {
         binding_mode       #140b0c #d94264 #140b0c
     }
 }
+```
+
+# i3lock-color
+
+```bash
+# i3lock Commands {{{1
+# Define some colours {{{3
+aqua="#B3FAFF"
+black="#140B0C"
+blue="#80A6FF"
+green="#66E390"
+purple="#A6ACFF"
+red="#D94264"
+white="#FFE0D6"
+yellow="#FFF899"
+
+# }
+lock() {
+# The command with parameters {{{3
+    i3lock \
+    --insidevercolor=$black \
+    --ringvercolor=$yellow \
+    --insidewrongcolor=$black \
+    --ringwrongcolor=$red \
+    --insidecolor=$black \
+    --ringcolor=$black \
+    --linecolor=$black \
+    --separatorcolor=$blue \
+    --verifcolor=$yellow \
+    --wrongcolor=$red \
+    --timecolor=$white \
+    --datecolor=$white \
+    --layoutcolor=$aqua \
+    --keyhlcolor=$white \
+    --bshlcolor=$white \
+    --blur 8 \
+    --veriftext="Checking ..." \
+    --wrongtext="Wrong." \
+    --clock \
+    --indicator \
+    --timestr="%H:%M:%S" \
+    --datestr="%A, %m %Y"
+}
+# }
 ```
 
 # Credits
